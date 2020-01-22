@@ -1,0 +1,350 @@
+/* Body */
+
+body {
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: Roboto-Light;
+    color: rgba(0, 0, 0, 0.72);
+    font-family: Roboto, Arial, sans-serif;
+}
+
+::-moz-selection {
+    background: yellow;
+}
+
+::selection {
+    background: yellow;
+}
+/* Navigation */
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+
+header {
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0.70) 0%, rgba(0, 0, 0, 0.49) 98%), url(/images/persi-hero-image.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 768px;
+}
+
+h1,h2,h3,h4,h5,p {
+    color: rgba(255, 255, 255, 0.84);
+}
+
+.templateux-navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 0;
+    z-index: 999;
+}
+.hamburger .hamburger--spin .hamburger-box .hamburger-inner {
+    color: #fff;
+}
+.templateux-navbar .container-fluid {
+    max-width: 100%;
+}
+
+.templateux-navbar .toggle-menu {
+    z-index: 99999;
+    position: relative;
+    top: 0px;
+    display: none;
+}
+
+.templateux-navbar .toggle-menu {
+    display: block;
+}
+}
+
+.templateux-navbar .toggle-menu:active,
+.templateux-navbar .toggle-menu:focus {
+    outline: none;
+}
+
+.templateux-navbar .site-logo {
+    position: relative;
+    top: 0px;
+    z-index: 9999;
+}
+
+.templateux-navbar .site-logo a {
+    font-size: 30px;
+    color: #000;
+}
+
+.templateux-navbar .templateux-menu {
+    position: relative;
+}
+
+.templateux-navbar .templateux-menu ul {
+    margin-bottom: 0;
+}
+
+.templateux-navbar .templateux-menu ul li {
+    display: inline-block;
+}
+
+.templateux-navbar .templateux-menu ul li a {
+    margin-right: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #000;
+    position: relative;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.templateux-navbar .templateux-menu ul li a:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    left: 0;
+    background: #dc3545;
+    -webkit-transition: .15s width ease;
+    -o-transition: .15s width ease;
+    transition: .15s width ease;
+}
+
+.templateux-navbar .templateux-menu ul li a:hover:before {
+    width: 100%;
+}
+
+.templateux-navbar .templateux-menu ul li.active > a:before {
+    width: 100%;
+}
+
+.templateux-navbar .templateux-menu ul li:last-child a {
+    margin-right: 0;
+}
+
+.templateux-navbar .templateux-menu {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    top: 0;
+    left: 0;
+    margin: 0;
+    text-align: left;
+    height: 100vh;
+    min-height: 400px;
+    padding: 15px;
+    display: none;
+    padding-top: 100px;
+    overflow-y: scroll;
+    z-index: 9;
+}
+
+.templateux-navbar .templateux-menu ul {
+    margin-left: 0px;
+}
+
+.templateux-navbar .templateux-menu ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.templateux-navbar .templateux-menu ul li a {
+    padding: 10px 0 2px 0;
+    font-size: 18px;
+    display: inline-block;
+}
+
+
+
+.templateux-navbar.navbar-light .site-logo a {
+    color: #fff;
+}
+
+.templateux-navbar.navbar-light .hamburger .hamburger-inner,
+.templateux-navbar.navbar-light .hamburger .hamburger-inner::before,
+.templateux-navbar.navbar-light .hamburger .hamburger-inner::after {
+    background-color: #fff;
+}
+
+.templateux-navbar.navbar-light .templateux-menu ul li a {
+    color: #fff;
+}
+
+.menu-open .templateux-navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.menu-open .site-logo a {
+    color: #000 !important;
+}
+
+.menu-open .navbar-light .hamburger .hamburger-inner,
+.menu-open .navbar-light .hamburger .hamburger-inner::before,
+.menu-open .navbar-light .hamburger .hamburger-inner::after {
+    background-color: #000;
+}
+
+.menu-open .templateux-menu li {
+    opacity: 0;
+    visibility: hidden;
+    margin-left: -10px;
+    position: relative;
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+}
+
+.menu-open .templateux-menu li.staggard {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 0px;
+}
+
+.menu-open .templateux-menu li a {
+    color: #000 !important;
+}
+.persi-logo {
+    height: 32px;
+    width: auto;
+}
+
+.site-logo-div:hover .persi-logo {
+    opacity: 0.7;
+}
+
+
+/* Header hero */
+
+h1 {
+    font-family: Roboto-Bold;
+    font-size: 2.5em;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 1.3em;
+    text-shadow: 0 0 18px #000000;
+}
+
+.color-text {
+    color: #00FF6A;
+}
+
+.h1-subtitle {
+    font-size: 1.25em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-main {
+    background-image: linear-gradient(-270deg, #00FF6A 0%, #00E560 100%);
+    font-family: Roboto-Bold;
+    font-size: 1.25em;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 10 20;
+    
+}
+.no-margin {
+    padding: 0;
+    margin: 0;
+}
+.hamburger {
+    padding: 32px 48px 0 0;
+}
+
+.col a img {
+    height: 32px;
+    width: auto;
+}
+
+.persi-logo {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 32px 0 0 32px;;
+}
+
+.container-fluid { padding-left: 50px; padding-right: 50px; max-width: 1600px; }
+
+/* card */
+
+.item-name {
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.item-descr {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.price, .sex, .btn-sec {
+    font-size: 0.875em;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.color-text-d {
+    color: #00DA3C;
+}
+
+.btn-sec, .sex {
+    text-transform: uppercase;
+}
+
+.btn-sec {
+    margin-right: 16px;
+    width: 100px;
+    padding: 8px 16px 8px 16px;
+    border: 3px solid #00FF6A;
+}
+.a-card {
+    background: #FFFFFF;
+    display: flex;
+    padding: 20px;
+    padding-left: 150px;
+    min-height: 360px;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,0.15);
+    margin-left: -100px;
+    z-index: -999;
+}
+
+.a-card-bottom {
+    background: #FFFFFF;
+    display: flex;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.10);
+}
+
+
+.wave-1 {
+}
+
+.ring {
+    background-image: url(/images/circle.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 9999;
+}
+
+.main-img {
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+}
+
+
